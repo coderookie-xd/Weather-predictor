@@ -78,7 +78,7 @@ Clone the repo
 
 git clone https://github.com/your-username/nyc-weather-prediction.git
 cd nyc-weather-prediction
-
+link to download the dataset - https://www.kaggle.com/datasets/alejopaullier/new-york-city-weather-data-2019
 
 Install dependencies
 
