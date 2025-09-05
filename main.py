@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error , r2_score 
 
-df = pd.read_csv(r'D:\nyc_temperature.csv')
+df = pd.read_csv(r'D:\nyc_temperature.csv') #Link to the dataset in README
 df.head() 
 
 X = df[["tmax", "tmin", "departure",  "HDD", "CDD" ]]
@@ -20,3 +20,4 @@ y_pred = model.predict(X_test)
 
 print("MSE:", mean_squared_error(y_test, y_pred))
 print("R² Score:", r2_score(y_test, y_pred))
+
